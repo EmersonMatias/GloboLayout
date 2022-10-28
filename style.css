@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.MainContainer {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Encode Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    overflow-y: hidden;
+}
+
+header {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.PagesContainer {
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.g1 {
+    color: #C3170C;
+}
+
+.oglobo {
+    color: #1E4B9B;
+}
+
+.valor {
+    color: #006766;
+}
+
+.ge {
+    color: #07AA47;
+}
+
+.cartola {
+    color: #E3662B;
+}
+
+.globoplay {
+    color: #FB0735;
+}
+
+.dropz {
+    color: #FF75BB;
+}
+
+.gshow{
+    color: #EC7D00;
+}
+
+.quem{
+    color: #323333;
+}
+
+.receitas{
+    color: #A81D83;
+}
+
+.ContentsContainer{
+    width: 1250px;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.LeftContentContainer{
+    width: 625px;
+}
+
+.PrincipalContentContainer{
+    border-bottom: 1px solid #EBEDEF;
+    
+}
+
+.PrincipalContentContainer p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #303134;
+    margin-bottom: 10px;
+}
+
+.MainTitle{
+    font-size: 52px;
+    font-weight: 700;
+    color: #C4160C;
+    line-height: 67px;
+    margin-bottom: 20px;
+}
+
+
+.SecondaryContentContainer{
+    margin-top: 20px;
+}
+
+.TopContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.BottomContainer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #EBEDEF;
+}
+
+.ContentContainer{
+    width: 193px;
+    margin-top: 20px;
+}
+
+.ContentContainer img{
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.ContentContainer .Subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.5px;
+    color: #C4170C;
+    margin-bottom: 10px;
+}
+
+.ContentContainer .Title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #2F3134;
+    margin-bottom: 10px;
+}
+
+.ContentContainer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #2F3134;
+}
+
+.RigthContentContainer{
+    display: flex;
+    width: 560px;
+    justify-content: space-between;
+}
+
+.RigthContentContainer .ContentContainer{
+    width: 240px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.RigthContentContainer .ContentContainer img{
+    width: 240px;
+    height: 128px;
+}
+
+.RigthContentContainer .SportSectionContainer .ContentContainer .Subtitle{
+    color: #16AE54;
+}
+
+
+.RigthContentContainer .SportSectionContainer .TvSectionContainer .Subtitle{
+    color: #EC8006;
+}
+
+.SportSectionContainer{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #EBEDEF;
+    border-right: 1px solid #EBEDEF;
+}
+
+.TvSectionContainer{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
