@@ -8,9 +8,6 @@ móveis.
 ### As tecnologias e conceitos envolvidos nesse projeto incluem:
 * HTML
 * CSS
-* Fontes externas
-* Links
-* Manipulação de imagens
 * Media Queries
 * Responsive Design
 
